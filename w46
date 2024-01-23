@@ -1,0 +1,65 @@
+{
+  "sites": [
+    {
+      "key": "家庭影院",
+      "name": "家庭影院",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1,
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaoo-mo/y/99291798ccf38701e4588347b5a99aefaf74f183/drpy2.min.js"
+    },
+    {
+      "key": "996",
+      "name": "九六影院",
+      "type": 3,
+      "api": "csp_Panda",
+      "jar": "https://mirror.ghproxy.com/github.com/xiaoo-mo/y/blob/99291798ccf38701e4588347b5a99aefaf74f183/996.jar;md5;9cc29f6286b2fe7910628852929c4bdb",
+      "ext": {
+        "分类url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$3#爽文短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#动画片$13#纪录片$14",
+        "筛选": "1"
+      }
+    },
+    {
+      "key": "49zy",
+      "name": "四九影院",
+      "type": 1,
+      "api": "https://49zyw.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "categories": [
+        "国产剧",
+        "纪录片",
+        "战争片",
+        "喜剧片",
+        "动画片",
+        "动漫",
+        "电影",
+        "体育赛事"
+      ]
+    },
+    {
+      "key": "樱花动漫",
+      "name": "动漫影院",
+      "type": 3,
+      "api": "csp_Appto",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "qebgGqODxKrWujD2TaoZoyh6aeYntZLsTaZW8MQvVNORiHLLi/o/cEEEXkSs1vfHEuiURxMTr9zL2Kwbffz2pDvLCamrK1tuxIcczsaI7cfsAh5gcgyzOOdZUszoU45ZgS9Bi4HZ3RDHZAWEqP0JyTaH32oDxgO9nx/xhe1xyVRyj9y5gkfPVt2AP94I8/DwDI9CEstcPzGfRNHYxlCuGMtnMvVwzonmkNDyOw+N5xr2ZI3P8O1cj04mCEAE6/d2tGSU/o+EOyWVLWWw0R3hoduHvjAtuMbBt6WNCcsL51zWceiTcsl34acqd9Pya3lA52ZFRojME/R4zdTzMbvwrOEF3Up0eB58//+NM6k4tW+cBNAHDGgO8t7hcfSG/TnJLQ7Gigrn899dGbFeQMCEQf0zxMxfgYBDkADs0aza9N2QIXChgEDVFDvw0vE2m6b+bJfswmbrhNEIM//95XpMv68HEP3jCTwFEehattwHjyYE4fJoH3OtPO++pDiZltaxdizfFD6WmTO+v4qub1QfpUEXWHzG6nqDA9MioigiTRdRAb4PEMioBCJS5/gel+PGRja1cR1NtBjl4RKpSPstwrmczG8qKQrn2Zjwkz8f4OdnEBKRLaWzb/hVDAQgqRfUyohEdnQyocaYsnB5lJoMSp93QCzwAuHYueyMh2fNpcemWGfs58wrZr5VFSBaQDYv/HjsNntoPaCDpoQIV9DJKiqQsiYMblsz/Mdbnlfd1vI5X69TVPvItzh26zXjgpFBKsiFDOtvd3bNe92XnTH3jiDgBQbqoL6jUbvhNQapqRUZxovWk30UQ0YTQnqODkorKdrEB1IeNhKt0epurJG/G7A6DQ6/6lZ7pAwlYVlfXzFgZOGNb1Hs52j2F+sGvgWY00BAH1eHtpHPPdckL25JMKai3QDQUAVBxAI8njCmcNUPfl9kDZe62QMNJwaZKD9eaOjNrdVsKjah9gkiWL8BnDxJeGErZyrvKhyqg0fwNvyn8wEfeUlwRzfDysrvjdBz3$$$null$$$1"
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://s2.pub/w1",
+      "epg": "https://epg.erw.cc/api/diyp",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "wallpaper": "https://s2.pub/x3",
+  "spider": "https://mirror.ghproxy.com/github.com/xiaoo-mo/y/blob/b9781250546f9cb616cef6b5ee7ebf2e278b28a3/spider.jar;md5;1526e714b8aa101dcd78060548871e24"
+}
